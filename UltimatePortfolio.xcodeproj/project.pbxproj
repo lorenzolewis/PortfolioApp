@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AB439A9254DCD1E00E52ED1 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB439A8254DCD1E00E52ED1 /* ProjectHeaderView.swift */; };
+		5AB439AC254DCFDB00E52ED1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AB439AB254DCFDB00E52ED1 /* Colors.xcassets */; };
+		5AB439AF254DD09900E52ED1 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB439AE254DD09900E52ED1 /* EditProjectView.swift */; };
 		5AC771F1254CD06D008AD542 /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC771F0254CD06D008AD542 /* UltimatePortfolioApp.swift */; };
 		5AC771F3254CD06D008AD542 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC771F2254CD06D008AD542 /* ContentView.swift */; };
 		5AC771F5254CD078008AD542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AC771F4254CD078008AD542 /* Assets.xcassets */; };
@@ -18,9 +21,15 @@
 		5AC77211254CDE1E008AD542 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC77210254CDE1E008AD542 /* ProjectsView.swift */; };
 		5AC77214254D18F4008AD542 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC77213254D18F4008AD542 /* Item-CoreDataHelpers.swift */; };
 		5AC77217254D19B1008AD542 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC77216254D19B1008AD542 /* Project-CoreDataHelpers.swift */; };
+		5AC7721B254D1F9A008AD542 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC7721A254D1F9A008AD542 /* EditItemView.swift */; };
+		5AC7721E254D236D008AD542 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC7721D254D236D008AD542 /* ItemRowView.swift */; };
+		5AC77221254D259A008AD542 /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC77220254D259A008AD542 /* Binding-OnChange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AB439A8254DCD1E00E52ED1 /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
+		5AB439AB254DCFDB00E52ED1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		5AB439AE254DD09900E52ED1 /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		5AC771ED254CD06D008AD542 /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC771F0254CD06D008AD542 /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		5AC771F2254CD06D008AD542 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +44,9 @@
 		5AC77210254CDE1E008AD542 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		5AC77213254D18F4008AD542 /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		5AC77216254D19B1008AD542 /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		5AC7721A254D1F9A008AD542 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		5AC7721D254D236D008AD542 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
+		5AC77220254D259A008AD542 /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +85,13 @@
 				5AC771F0254CD06D008AD542 /* UltimatePortfolioApp.swift */,
 				5AC7720C254CDDCF008AD542 /* HomeView.swift */,
 				5AC77210254CDE1E008AD542 /* ProjectsView.swift */,
+				5AB439AE254DD09900E52ED1 /* EditProjectView.swift */,
+				5AB439A8254DCD1E00E52ED1 /* ProjectHeaderView.swift */,
+				5AB439AB254DCFDB00E52ED1 /* Colors.xcassets */,
+				5AC7721D254D236D008AD542 /* ItemRowView.swift */,
 				5AC771F2254CD06D008AD542 /* ContentView.swift */,
+				5AC7721A254D1F9A008AD542 /* EditItemView.swift */,
+				5AC77220254D259A008AD542 /* Binding-OnChange.swift */,
 				5AC77213254D18F4008AD542 /* Item-CoreDataHelpers.swift */,
 				5AC77216254D19B1008AD542 /* Project-CoreDataHelpers.swift */,
 				5AC77200254CD435008AD542 /* Main.xcdatamodeld */,
@@ -158,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AB439AC254DCFDB00E52ED1 /* Colors.xcassets in Resources */,
 				5AC771F8254CD078008AD542 /* Preview Assets.xcassets in Resources */,
 				5AC771F5254CD078008AD542 /* Assets.xcassets in Resources */,
 			);
@@ -171,13 +190,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AC77211254CDE1E008AD542 /* ProjectsView.swift in Sources */,
+				5AB439A9254DCD1E00E52ED1 /* ProjectHeaderView.swift in Sources */,
 				5AC77202254CD435008AD542 /* Main.xcdatamodeld in Sources */,
 				5AC77217254D19B1008AD542 /* Project-CoreDataHelpers.swift in Sources */,
+				5AB439AF254DD09900E52ED1 /* EditProjectView.swift in Sources */,
 				5AC77205254CD6E8008AD542 /* DataController.swift in Sources */,
+				5AC7721E254D236D008AD542 /* ItemRowView.swift in Sources */,
 				5AC771F3254CD06D008AD542 /* ContentView.swift in Sources */,
+				5AC77221254D259A008AD542 /* Binding-OnChange.swift in Sources */,
 				5AC7720D254CDDCF008AD542 /* HomeView.swift in Sources */,
 				5AC771F1254CD06D008AD542 /* UltimatePortfolioApp.swift in Sources */,
 				5AC77214254D18F4008AD542 /* Item-CoreDataHelpers.swift in Sources */,
+				5AC7721B254D1F9A008AD542 /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
